@@ -1,0 +1,191 @@
+Question 1:
+Euclidian distance : 
+Q&A = sqroot(((2-1)**2)+((1-1)**2))=1
+Q&B = sqroot(((2-2)**2)+((1-2)**2))=1
+Q&C = sqroot(((2-4)**2)+((1-4)**2))= 3.61
+The two closest point to Q are A(cat)&B(dog) , it’s a tie , because of situation like this when using knn classification we use an odd number for the hyperparameter 'K'
+for example if we used k=3 the answer would be dog
+
+--------------------------------------------------
+
+Question 2:
+3	8
+7	2
+
+--------------------------------------------------
+
+Question 3:
+The answer is D
+
+--------------------------------------------------
+
+Question 4:
+p1(0,1),p2(1,3),p3((2,5),p4((3,9)
+p1error= y==1 = 2(0) + 1=1   y'1'=1       1-1 =0 
+p2error=y==3=2(1) +1   3=2+1  3=3   3-3 = 0
+p3error=y==5=2(2)+1  5=4+1  5=5       5-5=0 
+p4error=y==9=2(3)+1  9=6+1   9=7   9-7=2
+
+MSE = ((p1**2)+ (p2**2)+ (p3**2)+ (p4**2))/4
+=(0+0+0+4)/4=1
+MSE=1
+
+sse= 0+0+0+2 sqrd =4
+yˉ=(1+3+5+9)/4=18/4=4.5
+
+sst=(4.5-1)**2+(4.5-3)**2+(4.5-5)**2+(4.5-9)**2
+sst= 12.25+2.25+0.25+20.25=35
+
+R²= 1- 4.5/35=0.871
+n=4
+p=1
+
+Adjusted R² = 1-((1- 0.871)*(4-1)/(4-1-1))
+Adjusted R² = 1 - (0.129 * 3 / 2)
+Adjusted R² = 0.8065
+
+--------------------------------------------------
+
+Question 5:
+Aginiimpurty=LEFT((0) BOTH SUCSESS ) RIGHT (2S 4F)
+Gini(right) = 1 − ((1/3)² + (2/3)²) = 0.444
+Weighted gini = 0.444*6/8+0*2/8 = 0.333
+Gini gain A = 0.5 – 0.333= 0.167 
+
+Bginiimpurty=LEFT(3 SUCSESS (0)) RIGHT (1S 4F)
+Gini(right) = 1 − ((1/5)² + (4/5)²) = 0.32
+Weighted gini = 0.32*5/8+0*3/8 = 0.2
+Gini gain B = 0.5 – 0.2= 0.3 
+
+Cginiimpurty=LEFT(3 SUCSESS 1F) RIGHT (1S 4F)
+Gini(left) = 1 − ((1/4)² + (3/4)²) = 0.375 
+Gini(right) = 1 − ((1/4)² + (3/4)²) = 0.375
+Weighted gini = 0.375*4/8+0.375*4/8 = 0.375
+Gini gain C = 0.5 – 0.375 = 0.125
+
+Dginiimpurty=LEFT(1 SUCSESS 1F 0.5) RIGHT (3S 3F 0.5)
+No gain
+
+Final answer B has the biggest gini gain with 0.3
+
+--------------------------------------------------
+
+Question 6:
+Z= 2*1 -1*1
+Z=1
+σ(z) = 1 / (1 + e^(−z)) = 0.731
+The answer is B (Above the threshold)
+
+--------------------------------------------------
+
+Question 7:
+Q&A=((2-1)**2)+((1-1)**2) =1
+Q&B=((2-2)**2)+((1-2)**2)=1
+Q&C=((2-4)**2)+((1-4)**2)=13
+
+The closest two points are A & B
+(10+20)/2 = 15
+
+--------------------------------------------------
+
+Question 8:
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+(3+4+5)/(3+1+2+4+1+1+5)= 12/17= 0.705
+
+--------------------------------------------------
+
+Question 9:
+B
+
+--------------------------------------------------
+
+Question 10:
+1*2-1*1+2*1-3=0
+If the result of the equation were a positive or a negative number it would indicate whether the point lies above or below the decision surface.
+Since substituting the point’s coordinates into the equation results in zero, the point lies exactly on the surface.
+C
+
+--------------------------------------------------
+
+Question 11:
+B
+
+--------------------------------------------------
+
+Question 12:
+C
+
+--------------------------------------------------
+
+Question 13:
+Q&A=((2-1)**2)+((2-2)**2)+((2-1)**2) = 2
+Q&B=((2-2)**2)+((2-0)**2)+((2-2)**2) =4
+Q&C=((2-3)**2)+((2-3)**2)+((2-0)**2) =6
+Q&D=((2-0)**2)+((2-1)**2)+((2-3)**2) = 6
+
+A & B are the nearest with a tie between C & D
+
+--------------------------------------------------
+
+Question 14:
+MSE = (1/3) · (((2-3)**2)+((4-5)**2)+((6-4)**2))
+MSE = 2
+
+--------------------------------------------------
+
+Question 15:
+μ=(4+7+10+10+13+15+15+18+20+28)/10=14
+Σ (x − μ)² = 432
+σ = sqrt((1 / 10) · 432) = 6.574
+
+--------------------------------------------------
+
+Question 16:
+C
+
+--------------------------------------------------
+
+Question 17:
+B
+
+--------------------------------------------------
+
+Question 18:
+n = 2 + 8 = 10
+Overall MSE = (2/10) · 5 + (8/10) · 4 = 4.2
+Answer: A
+
+--------------------------------------------------
+
+Question 19:
+C
+
+--------------------------------------------------
+
+Question 20:
+C
+
+--------------------------------------------------
+
+Question 21:
+B
+
+--------------------------------------------------
+
+Question 22:
+B
+
+--------------------------------------------------
+
+Question 23:
+B
+
+--------------------------------------------------
+
+Question 24:
+C
+
+--------------------------------------------------
+
+Question 25:
+B
